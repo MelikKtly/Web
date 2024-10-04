@@ -1,0 +1,21 @@
+.image-container {
+  position: relative; /* Konumlandırma için gerekli */
+  display: inline-block; /* İçindeki öğeleri yan yana koyar */
+}
+
+img {
+  max-width: 100%; /* Resmin boyutunu konteyner boyutuna göre ayarlar */
+  height: auto; /* Orantılı yükseklik */
+  border-radius: 8px; /* Kenarları yuvarlar */
+}
+
+.overlay {
+  position: absolute; /* Resmin üzerine yazı yerleştirmek için */
+  top: 0; /* Üst kısım */
+  left: 0; /* Sol kısım */
+  color: white; /* Yazı rengi */
+  font-size: 24px; /* Yazı boyutu */
+  padding: 10px; /* Yazının çevresinde boşluk */
+  background-color: rgba(0, 0, 0, 0.5); /* Yazının arka planı */
+  border-radius: 8px; /* Kenarları yuvarlar */
+}
